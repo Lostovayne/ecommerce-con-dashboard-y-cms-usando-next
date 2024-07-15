@@ -1,6 +1,11 @@
-const HomePage = () => {
-  return <div>HomePage</div>;
-};
-export default HomePage;
+import { UserButton } from "@clerk/nextjs";
 
-// Todo: Minuto 25 de la clase.
+export default function SetupPage() {
+  return (
+    <div className="p-4">
+      <UserButton />
+    </div>
+  );
+}
+
+// Todo: Minuto 43:30
